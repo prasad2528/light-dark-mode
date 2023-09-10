@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  border: 2px solid black;
+  padding: 60px;
+  border-radius: 13px;
+}
+button {
+  height: 45px;
+  border: 2px solid;
+  width: 130px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: #ffffff;
+}
